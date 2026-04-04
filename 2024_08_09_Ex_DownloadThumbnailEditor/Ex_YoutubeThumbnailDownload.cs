@@ -67,9 +67,9 @@ public class Ex_YoutubeThumbnailDownload : MonoBehaviour
         }
         m_thumbnailUrl = url;
         try { 
-        StartCoroutine(DownloadImageFrom(url));
+          StartCoroutine(DownloadImageFrom(url));
         }catch(Exception e)
-        {
+        {   
         }
         //base.m_imageUrl = url;
         //SetWithURL(url);

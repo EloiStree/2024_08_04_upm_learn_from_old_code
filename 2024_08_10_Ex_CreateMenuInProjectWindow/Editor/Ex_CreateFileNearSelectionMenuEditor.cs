@@ -45,7 +45,7 @@ public class Ex_CreateFileNearSelectionMenuEditor : MonoBehaviour
     private static void Cmd_Open()
     {
         string pathDirectory = GetSelectedDirectoryPath();
-        QuickGit.OpenCmd(pathDirectory);
+        //QuickGit.OpenCmd(pathDirectory);
     }
     [MenuItem("Assets/Ex/Cmd/ipconfig")]
     private static void Cmd_IpConfig()

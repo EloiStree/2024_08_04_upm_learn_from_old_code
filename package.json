@@ -1,0 +1,28 @@
+{
+  "name": "be.elab.learnfromoldcode",
+  "displayName": "Learn from old code",
+  "version": "2025.1.16",
+  "unity": "2018.1",
+  "unityRelease": "",
+  "description": "Let's learn from the old code on my disk",
+  "keywords": [
+    "Script",
+    "Tool"
+  ],
+  "dependencies": {},
+  "relatedPackages": {},
+  "samples": [],
+  "author": {
+    "name": "Eloi Stree",
+    "mail": "",
+    "url": ""
+  },
+  "repository": {
+    "type": "Git",
+    "url": "",
+    "footprint": "",
+    "revision": ""
+  },
+  "category": "Script",
+  "_fingerprint": ""
+}

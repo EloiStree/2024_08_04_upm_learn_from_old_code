@@ -1,38 +1,39 @@
-using Eloi;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+////https://github.com/EloiStree/2024_08_06_upm_path_type_read_write.git
+//using Eloi;
+//using System.Collections;
+//using System.Collections.Generic;
+//using UnityEngine;
 
-public class DefaultAndroidApplicationDirectoryMono : DefaultDirectoryInDataPathStorageMono
-{
+//public class DefaultAndroidApplicationDirectoryMono : DefaultDirectoryInDataPathStorageMono
+//{
 
 
 
-    public override void GetPath(out string path)
-    {
-#if UNITY_ANDROID &&  !UNITY_EDITOR
-        GetDataPath(out IMetaAbsolutePathDirectoryGet folder);
-        GetSubFolder(out IMetaRelativePathDirectoryGet subFolder);
-        path = Eloi.E_FileAndFolderUtility.Combine( folder, subFolder).GetPath() ;
-#else
-        base.GetPath(out path);
-#endif
+//    public override void GetPath(out string path)
+//    {
+//#if UNITY_ANDROID &&  !UNITY_EDITOR
+//        GetDataPath(out IMetaAbsolutePathDirectoryGet folder);
+//        GetSubFolder(out IMetaRelativePathDirectoryGet subFolder);
+//        path = Eloi.E_FileAndFolderUtility.Combine( folder, subFolder).GetPath() ;
+//#else
+//        base.GetPath(out path);
+//#endif
 
-    }
+//    }
 
-    public void GetDataPath(out IMetaAbsolutePathDirectoryGet folder)
-    {
-        folder = new Eloi.MetaAbsolutePathDirectory(Application.dataPath);
-    }
+//    public void GetDataPath(out IMetaAbsolutePathDirectoryGet folder)
+//    {
+//        folder = new Eloi.MetaAbsolutePathDirectory(Application.dataPath);
+//    }
 
-    public void GetSubFolder(out IMetaRelativePathDirectoryGet subFolder)
-    {
-        subFolder = (m_subfolders);
-    }
+//    public void GetSubFolder(out IMetaRelativePathDirectoryGet subFolder)
+//    {
+//        subFolder = (m_subfolders);
+//    }
 
-    public override string GetPath()
-    {
-        this.GetPath(out string p);
-        return p;
-    }
-}
+//    public override string GetPath()
+//    {
+//        this.GetPath(out string p);
+//        return p;
+//    }
+//}
