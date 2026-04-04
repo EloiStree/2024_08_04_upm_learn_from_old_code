@@ -1,0 +1,16 @@
+{
+    "name": "2019_08_19_Ex_CreateMapFromTexture_Editor",
+    "rootNamespace": "",
+    "references": [
+        "2019_08_19_Ex_CreateMapFromTexture_Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

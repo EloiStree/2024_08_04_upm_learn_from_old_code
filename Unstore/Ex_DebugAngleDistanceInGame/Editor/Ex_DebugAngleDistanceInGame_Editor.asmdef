@@ -1,0 +1,16 @@
+{
+    "name": "Ex_DebugAngleDistanceInGame_Editor",
+    "rootNamespace": "",
+    "references": [
+        "Ex_DebugAngleDistanceInGame_Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
