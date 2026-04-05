@@ -4,7 +4,9 @@
     "references": [
         "2019_08_19_Ex_CreateMapFromTexture_Runtime"
     ],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
